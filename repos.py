@@ -5,7 +5,7 @@ import base64
 r = requests.get('https://api.github.com/versions')
 r.json()
 
-access_token = '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'
+access_token = ''
 headers = {'Authorization': 'Bearer' + access_token, 'X-GitHub-Api-Version': '2022-11-28'}
 
 # api_base_url = 'https://api.github.com'
