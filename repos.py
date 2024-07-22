@@ -42,7 +42,7 @@ headers = {'Authorization': 'Bearer' + access_token, 'X-GitHub-Api-Version': '20
 
 # amz_repos.to_csv('amazon.csv')
 
-access_token = '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'
+access_token = ''
 headers = {'Accept':'application/vnd.github+json',
     'Authorization': 'Bearer ' + access_token, 
            'X-GitHub-Api-Version': '2022-11-28',
