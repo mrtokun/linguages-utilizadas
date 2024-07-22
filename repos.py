@@ -5,7 +5,7 @@ import base64
 r = requests.get('https://api.github.com/versions')
 r.json()
 
-access_token = ''
+# access_token = ''
 headers = {'Authorization': 'Bearer' + access_token, 'X-GitHub-Api-Version': '2022-11-28'}
 
 # api_base_url = 'https://api.github.com'
@@ -42,7 +42,7 @@ headers = {'Authorization': 'Bearer' + access_token, 'X-GitHub-Api-Version': '20
 
 # amz_repos.to_csv('amazon.csv')
 
-access_token = ''
+# access_token = ''
 headers = {'Accept':'application/vnd.github+json',
     'Authorization': 'Bearer ' + access_token, 
            'X-GitHub-Api-Version': '2022-11-28',
